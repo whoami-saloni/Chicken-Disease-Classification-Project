@@ -1,0 +1,10 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = /Users/salonisahal/Desktop/Chicken-Disease-Classification-Project/Chicken-Disease-Classification-Project
+	fetch = +refs/*:refs/*
+	mirror = true

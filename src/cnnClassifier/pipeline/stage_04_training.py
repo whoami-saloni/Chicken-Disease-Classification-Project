@@ -16,7 +16,7 @@ class ModelTrainingPipeline:
         prepare_callbacks=PrepareCallbacks(config=prepare_callbacks_config)
         callback_list=prepare_callbacks.get_tb_ckpt_callbacks()
 
-        print("Training")
+        
 
         training_config=config.get_training_config()
         training=Training(config=training_config)

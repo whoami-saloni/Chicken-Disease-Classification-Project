@@ -22,3 +22,4 @@ class ModelTrainingPipeline:
         training.train(
         callback_list=callback_list
         )
+
